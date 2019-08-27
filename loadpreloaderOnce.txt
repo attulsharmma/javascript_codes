@@ -1,0 +1,7 @@
+ if (!sessionStorage.isVisited) {
+    sessionStorage.isVisited = 'true'
+    $(window).load(.....)
+}
+else{
+$('.preloader').hide();
+}
